@@ -3,16 +3,12 @@ import aiohttp
 import json
 from aiogram import Bot, Dispatcher, types, F
 from aiogram.fsm.storage.memory import MemoryStorage
-from config import BOT_TOKEN, CRYPTO_PAY_TOKEN
+from config import BOT_TOKEN, CRYPTO_PAY_TOKEN, PASSWORDS
 
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher(storage=MemoryStorage())
 
 PAY_API = "https://pay.crypt.bot/api"
-
-# Загружаем пароли
-with open("passwords.json", "r", encoding="utf-8") as f:
-    PASSWORDS = json.load(f)
 
 FAMILIES = {
     "🚪 Современная дверь": {
