@@ -11,80 +11,76 @@ dp = Dispatcher(storage=MemoryStorage())
 PAY_API = "https://pay.crypt.bot/api"
 
 FAMILIES = {
-    "тест": {
-        "price": 2.5,
-        "payload": "modern_door"
-    },
     "1_Revit_Household_Appliances (125 Families)": {
-        "price": 3.0,
+        "price": 22.0,
         "payload": "1"
     },
     "2_Kitchen_Revit_Families_Professional": {
-        "price": 2.5,
+        "price": 33.0,
         "payload": "2"
     },
     "3_Revit_Window_and_Doors_Mega_Pack": {
-        "price": 2.5,
+        "price": 18.0,
         "payload": "3"
     },
     "4_Shutters V1": {
-        "price": 2.5,
+        "price": 10.0,
         "payload": "4"
     },
     "5_Outdoor_Fur_V2": {
-        "price": 2.5,
+        "price": 5.0,
         "payload": "5"
     },
     "6_Room Dividers and Screens": {
-        "price": 2.5,
+        "price": 5.0,
         "payload": "6"
     },
     "7_Curtain Wall Facade System": {
-        "price": 2.5,
+        "price": 20.0,
         "payload": "7"
     },
     "8_2D_Residential Families_Pro": {
-        "price": 2.5,
+        "price": 12.0,
         "payload": "8"
     },
     "9_3D_Casual People": {
-        "price": 2.5,
+        "price": 8.0,
         "payload": "9"
     },
     "10_3D_Athletic People": {
-        "price": 2.5,
+        "price": 7.0,
         "payload": "10"
     },
     "11_Advanced_Stairs_and_Railing_01": {
-        "price": 2.5,
+        "price": 11.0,
         "payload": "11"
     },
     "12_Advanced_Stairs_and_Railing_02": {
-        "price": 2.5,
+        "price": 11.0,
         "payload": "12"
     },
     "13_Bathtubs_02": {
-        "price": 2.5,
+        "price": 3.0,
         "payload": "13"
     },
     "14_Accessible Bathroom Equipment": {
-        "price": 2.5,
+        "price": 5.0,
         "payload": "14"
     },
     "15_3D_Bussines People": {
-        "price": 2.5,
+        "price": 5.0,
         "payload": "15"
     },
     "16_Spa and Wellness": {
-        "price": 2.5,
+        "price": 5.0,
         "payload": "16"
     },
     "17_Structural Columns Wood": {
-        "price": 2.5,
+        "price": 5.0,
         "payload": "17"
     },
     "18_Elevator and Elevator Doors": {
-        "price": 2.5,
+        "price": 6.0,
         "payload": "18"
     },
 }
