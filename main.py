@@ -11,14 +11,82 @@ dp = Dispatcher(storage=MemoryStorage())
 PAY_API = "https://pay.crypt.bot/api"
 
 FAMILIES = {
-    "🚪 Современная дверь": {
+    "тест": {
         "price": 2.5,
         "payload": "modern_door"
     },
-    "🧱 Бетонная стена": {
+    "1_Revit_Household_Appliances (125 Families)": {
         "price": 3.0,
-        "payload": "concrete_wall"
-    }
+        "payload": "1"
+    },
+    "2_Kitchen_Revit_Families_Professional": {
+        "price": 2.5,
+        "payload": "2"
+    },
+    "3_Revit_Window_and_Doors_Mega_Pack": {
+        "price": 2.5,
+        "payload": "3"
+    },
+    "4_Shutters V1": {
+        "price": 2.5,
+        "payload": "4"
+    },
+    "5_Outdoor_Fur_V2": {
+        "price": 2.5,
+        "payload": "5"
+    },
+    "6_Room Dividers and Screens": {
+        "price": 2.5,
+        "payload": "6"
+    },
+    "7_Curtain Wall Facade System": {
+        "price": 2.5,
+        "payload": "7"
+    },
+    "8_2D_Residential Families_Pro": {
+        "price": 2.5,
+        "payload": "8"
+    },
+    "9_3D_Casual People": {
+        "price": 2.5,
+        "payload": "9"
+    },
+    "10_3D_Athletic People": {
+        "price": 2.5,
+        "payload": "10"
+    },
+    "11_Advanced_Stairs_and_Railing_01": {
+        "price": 2.5,
+        "payload": "11"
+    },
+    "12_Advanced_Stairs_and_Railing_02": {
+        "price": 2.5,
+        "payload": "12"
+    },
+    "13_Bathtubs_02": {
+        "price": 2.5,
+        "payload": "13"
+    },
+    "14_Accessible Bathroom Equipment": {
+        "price": 2.5,
+        "payload": "14"
+    },
+    "15_3D_Bussines People": {
+        "price": 2.5,
+        "payload": "15"
+    },
+    "16_Spa and Wellness": {
+        "price": 2.5,
+        "payload": "16"
+    },
+    "17_Structural Columns Wood": {
+        "price": 2.5,
+        "payload": "17"
+    },
+    "18_Elevator and Elevator Doors": {
+        "price": 2.5,
+        "payload": "18"
+    },
 }
 
 
